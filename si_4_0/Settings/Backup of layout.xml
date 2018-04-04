@@ -28,7 +28,7 @@
 				<Contents/>
 			</Top>
 			<Right>
-				<Rect Left="1436" Top="119" Right="1920" Bottom="815" />
+				<Rect Left="1398" Top="119" Right="1920" Bottom="815" />
 				<Contents>
 					<PanelHost
 						Title="Project Files"
@@ -39,7 +39,7 @@
 						PanelCount="4"
 						idPalActive="ProjectFilePanel"
 						>
-						<WindowRect Left="1440" Top="119" Right="1920" Bottom="815" />
+						<WindowRect Left="1402" Top="119" Right="1920" Bottom="815" />
 						<PredockRect Left="125" Top="125" Right="813" Bottom="750" />
 						<Panels>
 							<Panel
@@ -85,7 +85,7 @@
 				<Rect Left="0" Top="815" Right="1920" Bottom="994" />
 				<Contents>
 					<PanelHost
-						Title="ijkmp_android_create"
+						Title=""
 						id="ContextPanelHost"
 						IsHidden="0"
 						PctTrans="0"

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceInsightLayout
+	AppVer="4.00.0084"
+	AppVerMinReader="4.00.0030"
+	>
+	<!-- This is a Source Insight desktop layout file. -->
+	<!-- www.sourceinsight.com -->
+	<MainWindow
+		IsMaximized="0"
+		IsFullScreen="0"
+		>
+		<WindowRect Left="69" Top="84" Right="1929" Bottom="1104" />
+		<NormalWindowRect Left="69" Top="84" Right="1929" Bottom="1104" />
+	</MainWindow>
+	<Options>
+		<WindowTabOptions IsVisible="1" ShowPathInfo="1" SortOrder="Usage" />
+	</Options>
+	<PanelArea>
+		<WorkArea Left="77" Top="184" Right="1921" Bottom="1070" />
+		<TabTray IsVisible="0" />
+		<DockZones>
+			<Left>
+				<Rect Left="77" Top="188" Right="81" Bottom="889" />
+				<Contents/>
+			</Left>
+			<Top>
+				<Rect Left="77" Top="184" Right="1921" Bottom="188" />
+				<Contents/>
+			</Top>
+			<Right>
+				<Rect Left="1456" Top="188" Right="1921" Bottom="889" />
+				<Contents>
+					<PanelHost
+						Title="FF3.0 Project"
+						id="ProjectPanelHost"
+						IsHidden="1"
+						PctTrans="0"
+						IsMinimized="0"
+						PanelCount="4"
+						idPalActive="ProjectSymbolCategoryPanel"
+						>
+						<WindowRect Left="1460" Top="188" Right="1921" Bottom="889" />
+						<PredockRect Left="100" Top="100" Right="650" Bottom="600" />
+						<Panels>
+							<Panel
+								id="ProjectFilePanel"
+								IsHidden="0"
+								ViewToolbar="1"
+								>
+								<Columns>
+									<Column0 ID="0" Width="120" />
+									<Column1 ID="1" Width="96" />
+									<Column2 ID="2" Width="96" />
+									<Column3 ID="3" Width="96" />
+									<Column4 ID="4" Width="96" />
+								</Columns>
+							</Panel>
+							<Panel
+								id="ProjectSymbolPanel"
+								IsHidden="0"
+								ViewToolbar="1"
+								>
+								<Columns>
+									<Column0 ID="6" Width="192" />
+									<Column1 ID="0" Width="96" />
+									<Column2 ID="4" Width="96" />
+								</Columns>
+							</Panel>
+							<Panel id="ProjectFolderPanel" IsHidden="0" ViewToolbar="1" />
+							<Panel
+								id="ProjectSymbolCategoryPanel"
+								IsHidden="0"
+								ViewToolbar="1"
+								>
+								<Columns>
+									<Column0 ID="7" Width="192" />
+									<Column1 ID="0" Width="96" />
+								</Columns>
+							</Panel>
+						</Panels>
+					</PanelHost>
+				</Contents>
+			</Right>
+			<Bottom>
+				<Rect Left="77" Top="889" Right="1921" Bottom="1070" />
+				<Contents>
+					<PanelHost
+						Title="Context"
+						id="ContextPanelHost"
+						IsHidden="0"
+						PctTrans="0"
+						IsMinimized="0"
+						PanelCount="1"
+						idPalActive="ContextPanel"
+						>
+						<WindowRect Left="77" Top="893" Right="1921" Bottom="1070" />
+						<PredockRect Left="785" Top="390" Right="1135" Bottom="690" />
+						<Panels>
+							<Panel id="ContextPanel" IsHidden="0" ViewToolbar="1" />
+						</Panels>
+					</PanelHost>
+				</Contents>
+			</Bottom>
+		</DockZones>
+		<Floating>
+			<PanelHost
+				Title="Bookmarks"
+				id="BookmarkPanelHost"
+				IsHidden="1"
+				PctTrans="0"
+				IsMinimized="0"
+				PanelCount="1"
+				idPalActive="BookmarkPanel"
+				>
+				<WindowRect Left="100" Top="210" Right="500" Bottom="400" />
+				<PredockRect Left="100" Top="210" Right="500" Bottom="400" />
+				<Panels>
+					<Panel id="BookmarkPanel" IsHidden="0" ViewToolbar="1" />
+				</Panels>
+			</PanelHost>
+		</Floating>
+	</PanelArea>
+	<RelationWindowGlobalOptions ShowAll="0" />
+</SourceInsightLayout>
