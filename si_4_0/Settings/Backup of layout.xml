@@ -6,40 +6,40 @@
 	<!-- This is a Source Insight desktop layout file. -->
 	<!-- www.sourceinsight.com -->
 	<MainWindow
-		IsMaximized="1"
+		IsMaximized="0"
 		IsFullScreen="0"
 		>
-		<WindowRect Left="-6" Top="-6" Right="1926" Bottom="1030" />
-		<NormalWindowRect Left="53" Top="20" Right="1913" Bottom="1040" />
+		<WindowRect Left="-71" Top="145" Right="1789" Bottom="1165" />
+		<NormalWindowRect Left="-71" Top="145" Right="1789" Bottom="1165" />
 	</MainWindow>
 	<Options>
 		<WindowTabOptions IsVisible="1" ShowPathInfo="1" SortOrder="Usage" />
 	</Options>
 	<PanelArea>
-		<WorkArea Left="0" Top="115" Right="1920" Bottom="994" />
+		<WorkArea Left="-63" Top="279" Right="1781" Bottom="1131" />
 		<TabTray IsVisible="0" />
 		<DockZones>
 			<Left>
-				<Rect Left="0" Top="119" Right="4" Bottom="815" />
+				<Rect Left="-63" Top="283" Right="-59" Bottom="957" />
 				<Contents/>
 			</Left>
 			<Top>
-				<Rect Left="0" Top="115" Right="1920" Bottom="119" />
+				<Rect Left="-63" Top="279" Right="1781" Bottom="283" />
 				<Contents/>
 			</Top>
 			<Right>
-				<Rect Left="1398" Top="119" Right="1920" Bottom="815" />
+				<Rect Left="1280" Top="283" Right="1781" Bottom="957" />
 				<Contents>
 					<PanelHost
-						Title="Project Files"
+						Title="Project Symbols"
 						id="ProjectPanelHost"
 						IsHidden="0"
 						PctTrans="0"
 						IsMinimized="0"
 						PanelCount="4"
-						idPalActive="ProjectFilePanel"
+						idPalActive="ProjectSymbolPanel"
 						>
-						<WindowRect Left="1402" Top="119" Right="1920" Bottom="815" />
+						<WindowRect Left="1284" Top="283" Right="1781" Bottom="957" />
 						<PredockRect Left="125" Top="125" Right="813" Bottom="750" />
 						<Panels>
 							<Panel
@@ -82,10 +82,10 @@
 				</Contents>
 			</Right>
 			<Bottom>
-				<Rect Left="0" Top="815" Right="1920" Bottom="994" />
+				<Rect Left="-63" Top="957" Right="1781" Bottom="1131" />
 				<Contents>
 					<PanelHost
-						Title=""
+						Title="websocketpp::connection"
 						id="ContextPanelHost"
 						IsHidden="0"
 						PctTrans="0"
@@ -93,7 +93,7 @@
 						PanelCount="1"
 						idPalActive="ContextPanel"
 						>
-						<WindowRect Left="0" Top="819" Right="1920" Bottom="994" />
+						<WindowRect Left="-63" Top="961" Right="1781" Bottom="1131" />
 						<PredockRect Left="741" Top="353" Right="1179" Bottom="728" />
 						<Panels>
 							<Panel id="ContextPanel" IsHidden="0" ViewToolbar="1" />
@@ -136,13 +136,13 @@
 						ViewToolbar="1"
 						>
 						<Columns>
-							<Column0 ID="0" Width="240" />
-							<Column1 ID="1" Width="90" />
-							<Column2 ID="2" Width="90" />
-							<Column3 ID="3" Width="90" />
-							<Column4 ID="4" Width="240" />
-							<Column5 ID="5" Width="90" />
-							<Column6 ID="6" Width="90" />
+							<Column0 ID="0" Width="192" />
+							<Column1 ID="1" Width="72" />
+							<Column2 ID="2" Width="72" />
+							<Column3 ID="3" Width="72" />
+							<Column4 ID="4" Width="192" />
+							<Column5 ID="5" Width="72" />
+							<Column6 ID="6" Width="72" />
 						</Columns>
 						<MruList/>
 					</Panel>

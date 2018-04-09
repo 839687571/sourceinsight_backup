@@ -9,26 +9,26 @@
 		IsMaximized="0"
 		IsFullScreen="0"
 		>
-		<WindowRect Left="-12" Top="87" Right="1848" Bottom="1107" />
-		<NormalWindowRect Left="-12" Top="87" Right="1848" Bottom="1107" />
+		<WindowRect Left="33" Top="90" Right="1893" Bottom="1110" />
+		<NormalWindowRect Left="33" Top="90" Right="1893" Bottom="1110" />
 	</MainWindow>
 	<Options>
 		<WindowTabOptions IsVisible="1" ShowPathInfo="1" SortOrder="Usage" />
 	</Options>
 	<PanelArea>
-		<WorkArea Left="-4" Top="187" Right="1840" Bottom="1073" />
+		<WorkArea Left="41" Top="224" Right="1885" Bottom="1076" />
 		<TabTray IsVisible="0" />
 		<DockZones>
 			<Left>
-				<Rect Left="-4" Top="191" Right="0" Bottom="892" />
+				<Rect Left="41" Top="228" Right="45" Bottom="902" />
 				<Contents/>
 			</Left>
 			<Top>
-				<Rect Left="-4" Top="187" Right="1840" Bottom="191" />
+				<Rect Left="41" Top="224" Right="1885" Bottom="228" />
 				<Contents/>
 			</Top>
 			<Right>
-				<Rect Left="1339" Top="191" Right="1840" Bottom="892" />
+				<Rect Left="1384" Top="228" Right="1885" Bottom="902" />
 				<Contents>
 					<PanelHost
 						Title="Project Symbols"
@@ -39,7 +39,7 @@
 						PanelCount="4"
 						idPalActive="ProjectSymbolPanel"
 						>
-						<WindowRect Left="1343" Top="191" Right="1840" Bottom="892" />
+						<WindowRect Left="1388" Top="228" Right="1885" Bottom="902" />
 						<PredockRect Left="125" Top="125" Right="813" Bottom="750" />
 						<Panels>
 							<Panel
@@ -82,10 +82,10 @@
 				</Contents>
 			</Right>
 			<Bottom>
-				<Rect Left="-4" Top="892" Right="1840" Bottom="1073" />
+				<Rect Left="41" Top="902" Right="1885" Bottom="1076" />
 				<Contents>
 					<PanelHost
-						Title="lookup_pal_indicies"
+						Title="av_vlog"
 						id="ContextPanelHost"
 						IsHidden="0"
 						PctTrans="0"
@@ -93,7 +93,7 @@
 						PanelCount="1"
 						idPalActive="ContextPanel"
 						>
-						<WindowRect Left="-4" Top="896" Right="1840" Bottom="1073" />
+						<WindowRect Left="41" Top="906" Right="1885" Bottom="1076" />
 						<PredockRect Left="741" Top="353" Right="1179" Bottom="728" />
 						<Panels>
 							<Panel id="ContextPanel" IsHidden="0" ViewToolbar="1" />

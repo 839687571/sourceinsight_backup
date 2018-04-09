@@ -28,7 +28,7 @@
 			HorizScrollBar="1"
 			VertScrollBar="1"
 			EnhancedVertScrollBar="1"
-			ScalePercent="100"
+			ScalePercent="120"
 			PopupToolbar="1"
 			SmoothScrolling="1"
 			AccelSmoothScrolling="1"
@@ -57,7 +57,7 @@
 			ShowNestingLines="1"
 			ShowCurLineMarker="0"
 			PanelToolbarBottom="1"
-			ShowSearchBar="0"
+			ShowSearchBar="1"
 			ShowSearchProjBar="0"
 			EnableTransparentPanels="0"
 			EnableOverviews="1"
@@ -102,7 +102,7 @@
 			TextColor="#000000"
 			BackColor="#cce8cf"
 			>
-			<Font name="新宋体" psize="11" fpfamily="49" charset="134" />
+			<Font name="Consolas" psize="11" fpfamily="49" charset="0" />
 		</DefaultPanelFontAndColor>
 	</DisplayPreferences>
 	<EditingPreferences
@@ -577,7 +577,6 @@
 			<item Command="Activate Window Menu" Keycode="(A)W" />
 			<item Command="Activate Project Menu" Keycode="(A)P" />
 			<item Command="Activate Search Menu" Keycode="(A)S" />
-			<item Command="Activate Edit Menu" Keycode="(A)E" />
 			<item Command="Select All" Keycode="(C)A" />
 			<item Command="Cut" Keycode="(S)Del" />
 			<item Command="Paste" Keycode="(S)Ins" />
@@ -626,6 +625,8 @@
 			<item Command="Load Layout C" Keycode="(CS)F3" />
 			<item Command="Load Layout B" Keycode="(CS)F2" />
 			<item Command="Load Layout A" Keycode="(CS)F1" />
+			<item Command="Activate Project Symbol List" Keycode="(A)E" />
+			<item Command="Delete Line" Keycode="(A)X" />
 		</Main>
 	</Keymaps>
 	<CustomCommands>
@@ -2032,88 +2033,29 @@
 			FontPitchFamily="1"
 			FontCharset="0"
 			/>
-		<Style
-			Name="Operator"
-			FontSizeQps="44"
-			TextColor="#008000"
-			FontName="宋体"
-			FontPitchFamily="2"
-			FontCharset="0"
-			/>
-		<Style
-			Name="Delimiter"
-			FontSizeQps="48"
-			KeepWithNextLine="1"
-			TextColor="#800080"
-			FontName="新宋体"
-			FontPitchFamily="49"
-			FontCharset="0"
-			/>
-		<Style
-			Name="Comment"
-			FontSizeQps="44"
-			TextColor="#0000ff"
-			FontName="新宋体"
-			FontPitchFamily="49"
-			FontCharset="0"
-			/>
+		<Style Name="Operator" TextColor="#008000" />
+		<Style Name="Delimiter" TextColor="#800080" KeepWithNextLine="1" />
+		<Style Name="Comment" TextColor="#800080" />
 		<Style
 			Name="String"
 			TextColor="#000080"
 			FixedWhiteSpace="0"
 			BackColor="#ffffbb"
 			/>
-		<Style
-			Name="Keyword"
-			FontSizeQps="44"
-			TextColor="#008000"
-			FontName="宋体"
-			FontPitchFamily="2"
-			FontCharset="0"
-			/>
-		<Style
-			Name="Control"
-			FontSizeQps="44"
-			Bold="1"
-			TextColor="#ff0000"
-			FontName="宋体"
-			FontPitchFamily="2"
-			FontCharset="0"
-			/>
-		<Style Name="Special" Bold="1" Italic="1" TextColor="#800080" />
-		<Style
-			Name="Boolean"
-			TextColor="#800080"
-			FontName="宋体"
-			FontPitchFamily="2"
-			FontCharset="0"
-			/>
+		<Style Name="Keyword" TextColor="#008000" />
+		<Style Name="Control" TextColor="#000080" Bold="1" />
+		<Style Name="Special" TextColor="#800080" Bold="1" Italic="1" />
+		<Style Name="Boolean" TextColor="#800080" />
 		<Style Name="Debug" TextColor="#ff0000" Italic="1" Underline="Dotted" />
 		<Style Name="Null Value" TextColor="#ff0000" />
 		<Style Name="System" TextColor="#008000" />
-		<Style
-			Name="Declaration"
-			FontSizeQps="44"
-			Bold="1"
-			TextColor="#000080"
-			FontName="宋体"
-			FontPitchFamily="2"
-			FontCharset="0"
-			/>
+		<Style Name="Declaration" Bold="1" TextColor="#000080" />
 		<Style
 			Name="Ref To Local"
-			Scale="100"
 			TextColor="#008080"
 			ParentStyle="Reference"
 			/>
-		<Style
-			Name="Reference"
-			FontSizeQps="44"
-			TextColor="#008000"
-			FontName="新宋体"
-			FontPitchFamily="49"
-			FontCharset="0"
-			/>
+		<Style Name="Reference" TextColor="#008000" />
 		<Style Name="Directive" ParentStyle="Control" />
 		<Style
 			Name="Line Number"
@@ -2160,13 +2102,9 @@
 		<Style Name="Declare Method Inline" ParentStyle="Declare Function" />
 		<Style
 			Name="Declare Function"
-			FontSizeQps="64"
-			Bold="1"
-			KeepWithNextLine="1"
+			Scale="140"
 			ShadowColor="#c0c0c0"
-			FontName="宋体"
-			FontPitchFamily="2"
-			FontCharset="0"
+			KeepWithNextLine="1"
 			ParentStyle="Declaration"
 			/>
 		<Style Name="Declare Macro" ParentStyle="Declaration" />
@@ -2329,15 +2267,7 @@
 		<Style Name="Comment Multi Line" ParentStyle="Comment" />
 		<Style Name="Parentheses" ParentStyle="Delimiter" />
 		<Style Name="HTML Body Text" FixedWhiteSpace="0" />
-		<Style
-			Name="HTML Tag"
-			FontSizeQps="44"
-			Bold="1"
-			TextColor="#008000"
-			FontName="新宋体"
-			FontPitchFamily="49"
-			FontCharset="0"
-			/>
+		<Style Name="HTML Tag" TextColor="#008000" Bold="1" />
 		<Style Name="Standard Property" ParentStyle="Ref to Member" />
 		<Style Name="Standard Function" ParentStyle="Ref to Func" />
 		<Style Name="Standard Object" ParentStyle="Ref to Class" />
@@ -2350,8 +2280,8 @@
 		<Style Name="Ref to C# Property" ParentStyle="Reference" />
 		<Style
 			Name="Mono Font View"
-			FontName="宋体"
-			FontPitchFamily="2"
+			FontName="Consolas"
+			FontPitchFamily="1"
 			FontCharset="0"
 			/>
 		<Style Name="Declare C# Event" ParentStyle="Declaration" />
@@ -2378,15 +2308,7 @@
 			BackColor="#a0e1ff"
 			Bold="1"
 			/>
-		<Style
-			Name="Register"
-			FontSizeQps="44"
-			Bold="1"
-			TextColor="#008000"
-			FontName="宋体"
-			FontPitchFamily="2"
-			FontCharset="0"
-			/>
+		<Style Name="Register" TextColor="#008000" Bold="1" />
 		<Style
 			Name="Python Doc String"
 			TextColor="#000080"
@@ -2396,12 +2318,8 @@
 		<Style Name="Instruction" ParentStyle="Control" />
 		<Style
 			Name="Reference Highlight"
-			FontSizeQps="44"
 			TextColor="#000000"
 			BackColor="#aae1ff"
-			FontName="宋体"
-			FontPitchFamily="2"
-			FontCharset="0"
 			/>
 		<Style
 			Name="Declare VHDL Entity"
@@ -2423,7 +2341,7 @@
 			KeepWithNextLine="1"
 			ParentStyle="Declaration"
 			/>
-		<Style Name="Declare VHDL Process" ParentStyle="Declaration" />
+		<Style Name="Declare VHDL Process" ParentStyle="Declare Function" />
 		<Style
 			Name="Declare VHDL Config"
 			ShadowColor="#c0c0c0"
@@ -2435,8 +2353,6 @@
 		<Style Name="Ref to VHDL Component" ParentStyle="Reference" />
 		<Style Name="Ref to VHDL Process" ParentStyle="Reference" />
 		<Style Name="Ref to VHDL Config" ParentStyle="Reference" />
-		<Style Name="HTML Tag Excerpt" />
-		<Style Name="new comment" />
 	</Styles>
 	<FTPSites>
 		<SiteList/>
@@ -7607,7 +7523,7 @@
 				SelectMatch="1"
 				FindNonMatch="0"
 				FindOnePerLine="0"
-				FindBackward="0"
+				FindBackward="1"
 				FindWholeWords="0"
 				TouchFiles="0"
 				ReplacePreserveCase="0"
@@ -8096,7 +8012,7 @@
 			TextColor="#000000"
 			BackColor="#cce8cf"
 			>
-			<Font name="新宋体" psize="11" fpfamily="49" charset="134" />
+			<Font name="Consolas" psize="11" fpfamily="49" charset="0" />
 		</ListDisplay>
 	</BookmarkWindow>
 	<SnippetWindow>
@@ -8115,7 +8031,7 @@
 				TextColor="#000000"
 				BackColor="#cce8cf"
 				>
-				<Font name="新宋体" psize="11" fpfamily="49" charset="134" />
+				<Font name="Consolas" psize="11" fpfamily="49" charset="0" />
 			</ListDisplay>
 		</SnippetWindowOptions>
 	</SnippetWindow>
@@ -8131,7 +8047,7 @@
 			TextColor="#000000"
 			BackColor="#cce8cf"
 			>
-			<Font name="新宋体" psize="11" fpfamily="49" charset="134" />
+			<Font name="Consolas" psize="11" fpfamily="49" charset="0" />
 		</ListDisplay>
 	</ClipWindow>
 	<ContextWindow
@@ -8147,7 +8063,7 @@
 			TextColor="#000000"
 			BackColor="#cce8cf"
 			>
-			<Font name="新宋体" psize="11" fpfamily="49" charset="134" />
+			<Font name="Consolas" psize="11" fpfamily="49" charset="0" />
 		</ListDisplay>
 		<TrackingOptions tracktype="1" InComments="0" InStrings="0" InAnyFile="0" />
 	</ContextWindow>
@@ -8165,7 +8081,7 @@
 			TextColor="#000000"
 			BackColor="#cce8cf"
 			>
-			<Font name="新宋体" psize="11" fpfamily="49" charset="134" />
+			<Font name="Consolas" psize="11" fpfamily="49" charset="0" />
 		</ListDisplay>
 	</DirectoryCompareWindow>
 	<FileCompareWindow
@@ -8186,7 +8102,7 @@
 			TextColor="#000000"
 			BackColor="#cce8cf"
 			>
-			<Font name="新宋体" psize="11" fpfamily="49" charset="134" />
+			<Font name="Consolas" psize="11" fpfamily="49" charset="0" />
 		</ListDisplay>
 	</FileCompareWindow>
 	<ProjectFileWindow
@@ -8202,7 +8118,7 @@
 			TextColor="#000000"
 			BackColor="#cce8cf"
 			>
-			<Font name="新宋体" psize="11" fpfamily="49" charset="134" />
+			<Font name="Consolas" psize="11" fpfamily="49" charset="0" />
 		</ListDisplay>
 	</ProjectFileWindow>
 	<ProjectFileTypeWindow
@@ -8217,7 +8133,7 @@
 			TextColor="#000000"
 			BackColor="#cce8cf"
 			>
-			<Font name="新宋体" psize="11" fpfamily="49" charset="134" />
+			<Font name="Consolas" psize="11" fpfamily="49" charset="0" />
 		</ListDisplay>
 	</ProjectFileTypeWindow>
 	<ProjectFolderWindow
@@ -8231,7 +8147,7 @@
 			TextColor="#000000"
 			BackColor="#cce8cf"
 			>
-			<Font name="新宋体" psize="11" fpfamily="49" charset="134" />
+			<Font name="Consolas" psize="11" fpfamily="49" charset="0" />
 		</ListDisplay>
 	</ProjectFolderWindow>
 	<ProjectSymbolWindow
@@ -8303,7 +8219,7 @@
 			TextColor="#000000"
 			BackColor="#cce8cf"
 			>
-			<Font name="新宋体" psize="11" fpfamily="49" charset="134" />
+			<Font name="Consolas" psize="11" fpfamily="49" charset="0" />
 		</ListDisplay>
 	</ProjectSymbolWindow>
 	<ProjectSymbolTypeWindow
@@ -8375,7 +8291,7 @@
 			TextColor="#000000"
 			BackColor="#cce8cf"
 			>
-			<Font name="新宋体" psize="11" fpfamily="49" charset="134" />
+			<Font name="Consolas" psize="11" fpfamily="49" charset="0" />
 		</ListDisplay>
 	</ProjectSymbolTypeWindow>
 	<WindowListWindow
@@ -8387,7 +8303,7 @@
 			TextColor="#000000"
 			BackColor="#cce8cf"
 			>
-			<Font name="新宋体" psize="11" fpfamily="49" charset="134" />
+			<Font name="Consolas" psize="11" fpfamily="49" charset="0" />
 		</ListDisplay>
 	</WindowListWindow>
 	<RelationWindow>
@@ -8398,7 +8314,7 @@
 				TextColor="#000000"
 				BackColor="#cce8cf"
 				>
-				<Font name="新宋体" psize="11" fpfamily="49" charset="134" />
+				<Font name="Consolas" psize="11" fpfamily="49" charset="0" />
 			</ListOptions>
 			<GraphOptions
 				LayoutStyle="1"
@@ -8481,7 +8397,7 @@
 			TextColor="#000000"
 			BackColor="#cce8cf"
 			>
-			<Font name="新宋体" psize="11" fpfamily="49" charset="134" />
+			<Font name="Consolas" psize="11" fpfamily="49" charset="0" />
 		</ListDisplay>
 	</FTPWindow>
 </SourceInsightConfiguration>
