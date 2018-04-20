@@ -57,7 +57,7 @@
 			ShowNestingLines="1"
 			ShowCurLineMarker="0"
 			PanelToolbarBottom="1"
-			ShowSearchBar="1"
+			ShowSearchBar="0"
 			ShowSearchProjBar="0"
 			EnableTransparentPanels="0"
 			EnableOverviews="1"
@@ -1078,7 +1078,7 @@
 		</Type>
 		<Type
 			Name="C/C++ Source File"
-			FileFilter="*.c;*.h;*.cpp;*.hpp;*.cxx;*.hxx"
+			FileFilter="*.c;*.h;*.cpp;*.hpp;*.cxx;*.hxx;*.ipp"
 			Language="C/C++ Language"
 			ParsePattern=""
 			WordWrap="0"
@@ -1101,7 +1101,7 @@
 			ShowRefHighlights="0"
 			TabWidth="4"
 			MarginWidth="120"
-			IndentWidth="4"
+			IndentWidth="1"
 			AutoInsertPairs="1"
 			ParsePatternSymbolType=""
 			AutoIndentMode="2"
@@ -1499,7 +1499,7 @@
 		<Type
 			Name="Batch File"
 			FileFilter="*.bat;*.cmd"
-			Language="None"
+			Language="bat"
 			ParsePattern="^:\(.*\)$"
 			WordWrap="0"
 			ExpandTabs="0"
@@ -1521,7 +1521,7 @@
 			ShowRefHighlights="0"
 			TabWidth="4"
 			MarginWidth="120"
-			IndentWidth="4"
+			IndentWidth="0"
 			AutoInsertPairs="1"
 			ParsePatternSymbolType="Custom Tag"
 			AutoIndentMode="1"
@@ -7498,6 +7498,48 @@
 				<Item Keyword="null" Style="Keyword" />
 			</Keywords>
 		</Language>
+		<Language
+			Name="bat"
+			Comment="bat script add by whmiao"
+			CaseSensitive="0"
+			CPreprocessor="0"
+			SmartIndent="0"
+			ContainsSourceCode="1"
+			SyntaxFormatting="1"
+			UseRegexParsing="0"
+			SyntaxDecorations="0"
+			CommentStyles="0"
+			AllowSmartTab="0"
+			DetectNumbers="1"
+			CHexNum="0"
+			IntelHexNum="0"
+			MotorolaHexNum="0"
+			BasicHexNum="0"
+			IntelOctalNum="0"
+			QOctalNum="0"
+			NonAlphaNumIdentChars="_"
+			>
+			<CustomParsing/>
+			<Ranges/>
+			<Keywords>
+				<Item Keyword="-c:a" Style="Keyword" />
+				<Item Keyword="-c:v" Style="Keyword" />
+				<Item Keyword="-f" Style="Operator" />
+				<Item Keyword="-i" Style="Null Value" />
+				<Item Keyword="-r" Style="Null Value" />
+				<Item Keyword="ffmpeg" Style="Keyword" />
+				<Item Keyword="format" Style="Keyword" />
+				<Item Keyword="fps" Style="Keyword" />
+				<Item Keyword="null" Style="Null Value" />
+				<Item Keyword="nullsrc" Style="Null Value" />
+				<Item Keyword="pix_fmts" Style="Operator" />
+				<Item Keyword="scale" Style="Keyword" />
+				<Item Keyword="setdar" Style="Keyword" />
+				<Item Keyword="stream_index" Style="Keyword" />
+				<Item Keyword="stream_type" Style="Keyword" />
+				<Item Keyword="vf" Style="Keyword" />
+			</Keywords>
+		</Language>
 	</Languages>
 	<ParsingOptions>
 		<ParsingPreferences
@@ -7523,7 +7565,7 @@
 				SelectMatch="1"
 				FindNonMatch="0"
 				FindOnePerLine="0"
-				FindBackward="1"
+				FindBackward="0"
 				FindWholeWords="0"
 				TouchFiles="0"
 				ReplacePreserveCase="0"

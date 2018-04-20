@@ -6,29 +6,29 @@
 	<!-- This is a Source Insight desktop layout file. -->
 	<!-- www.sourceinsight.com -->
 	<MainWindow
-		IsMaximized="0"
+		IsMaximized="1"
 		IsFullScreen="0"
 		>
-		<WindowRect Left="-71" Top="145" Right="1789" Bottom="1165" />
-		<NormalWindowRect Left="-71" Top="145" Right="1789" Bottom="1165" />
+		<WindowRect Left="-8" Top="-8" Right="1928" Bottom="1048" />
+		<NormalWindowRect Left="96" Top="148" Right="1550" Bottom="804" />
 	</MainWindow>
 	<Options>
 		<WindowTabOptions IsVisible="1" ShowPathInfo="1" SortOrder="Usage" />
 	</Options>
 	<PanelArea>
-		<WorkArea Left="-63" Top="279" Right="1781" Bottom="1131" />
+		<WorkArea Left="0" Top="126" Right="1920" Bottom="1014" />
 		<TabTray IsVisible="0" />
 		<DockZones>
 			<Left>
-				<Rect Left="-63" Top="283" Right="-59" Bottom="957" />
+				<Rect Left="0" Top="130" Right="4" Bottom="833" />
 				<Contents/>
 			</Left>
 			<Top>
-				<Rect Left="-63" Top="279" Right="1781" Bottom="283" />
+				<Rect Left="0" Top="126" Right="1920" Bottom="130" />
 				<Contents/>
 			</Top>
 			<Right>
-				<Rect Left="1280" Top="283" Right="1781" Bottom="957" />
+				<Rect Left="1436" Top="130" Right="1920" Bottom="833" />
 				<Contents>
 					<PanelHost
 						Title="Project Symbols"
@@ -39,7 +39,7 @@
 						PanelCount="4"
 						idPalActive="ProjectSymbolPanel"
 						>
-						<WindowRect Left="1284" Top="283" Right="1781" Bottom="957" />
+						<WindowRect Left="1440" Top="130" Right="1920" Bottom="833" />
 						<PredockRect Left="125" Top="125" Right="813" Bottom="750" />
 						<Panels>
 							<Panel
@@ -82,10 +82,10 @@
 				</Contents>
 			</Right>
 			<Bottom>
-				<Rect Left="-63" Top="957" Right="1781" Bottom="1131" />
+				<Rect Left="0" Top="833" Right="1920" Bottom="1014" />
 				<Contents>
 					<PanelHost
-						Title="websocketpp::connection"
+						Title="x86inc.asm (D:\dev\opensource\ffmpeg-3.3.4-original\ffmpeg-3.3.4\libavutil\x86)"
 						id="ContextPanelHost"
 						IsHidden="0"
 						PctTrans="0"
@@ -93,7 +93,7 @@
 						PanelCount="1"
 						idPalActive="ContextPanel"
 						>
-						<WindowRect Left="-63" Top="961" Right="1781" Bottom="1131" />
+						<WindowRect Left="0" Top="837" Right="1920" Bottom="1014" />
 						<PredockRect Left="741" Top="353" Right="1179" Bottom="728" />
 						<Panels>
 							<Panel id="ContextPanel" IsHidden="0" ViewToolbar="1" />
