@@ -708,7 +708,7 @@
 			/>
 		<Command
 			Name="Command Shell"
-			RunText="CMD.EXE"
+			RunText="CMD.EXE "
 			WorkingDir=""
 			NormalWindow="1"
 			CaptureOutput="0"
@@ -784,8 +784,8 @@
 			/>
 		<Command
 			Name="Run Project"
-			RunText=""
-			WorkingDir=""
+			RunText="cmd /c %f"
+			WorkingDir="%d"
 			NormalWindow="1"
 			CaptureOutput="0"
 			PasteOutput="0"
@@ -798,7 +798,7 @@
 			ParseOutput="0"
 			LineThenFile="0"
 			RegexType="Source Insight"
-			Preset="1"
+			Preset="0"
 			ParsePattern=""
 			/>
 		<Command
@@ -7520,18 +7520,34 @@
 			NonAlphaNumIdentChars="_"
 			>
 			<CustomParsing/>
-			<Ranges/>
+			<Ranges>
+				<Range
+					Type="Line"
+					AllowNesting="0"
+					ParseInside="0"
+					ReadOnly="0"
+					StyleName="Comment Single Line"
+					StyleDelimiter="1"
+					StartString="::"
+					EscapeString=""
+					ValidateColumns="0"
+					FirstColumn="0"
+					LastColumn="0"
+					/>
+			</Ranges>
 			<Keywords>
 				<Item Keyword="-c:a" Style="Keyword" />
 				<Item Keyword="-c:v" Style="Keyword" />
 				<Item Keyword="-f" Style="Operator" />
 				<Item Keyword="-i" Style="Null Value" />
 				<Item Keyword="-r" Style="Null Value" />
+				<Item Keyword="::" Style="Declaration" />
 				<Item Keyword="ffmpeg" Style="Keyword" />
 				<Item Keyword="format" Style="Keyword" />
 				<Item Keyword="fps" Style="Keyword" />
 				<Item Keyword="null" Style="Null Value" />
 				<Item Keyword="nullsrc" Style="Null Value" />
+				<Item Keyword="pause" Style="Python Doc String" />
 				<Item Keyword="pix_fmts" Style="Operator" />
 				<Item Keyword="scale" Style="Keyword" />
 				<Item Keyword="setdar" Style="Keyword" />

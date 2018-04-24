@@ -85,7 +85,7 @@
 				<Rect Left="0" Top="826" Right="1920" Bottom="1014" />
 				<Contents>
 					<PanelHost
-						Title=":vlc -vvv D:\bisai.flv --sout=#transcode{vcodec=h264,vb=800,acodec=mpga,ab=128,"
+						Title="audiofilter_srcfilter_aevalsrc_gen_audio_all_params.bat (D:\test_cmd_ff\ffmpeg_bat)"
 						id="ContextPanelHost"
 						IsHidden="0"
 						PctTrans="0"
