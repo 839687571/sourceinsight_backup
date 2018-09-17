@@ -31,7 +31,7 @@
 				<Rect Left="1456" Top="188" Right="1921" Bottom="889" />
 				<Contents>
 					<PanelHost
-						Title="FF3.0 Project"
+						Title="Symbol Categories"
 						id="ProjectPanelHost"
 						IsHidden="1"
 						PctTrans="0"
@@ -75,6 +75,7 @@
 								<Columns>
 									<Column0 ID="7" Width="192" />
 									<Column1 ID="0" Width="96" />
+									<Column2 ID="4" Width="96" />
 								</Columns>
 							</Panel>
 						</Panels>
@@ -85,7 +86,7 @@
 				<Rect Left="77" Top="889" Right="1921" Bottom="1070" />
 				<Contents>
 					<PanelHost
-						Title="Context"
+						Title="qsv"
 						id="ContextPanelHost"
 						IsHidden="0"
 						PctTrans="0"

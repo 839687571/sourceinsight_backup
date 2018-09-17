@@ -10,37 +10,37 @@
 		IsFullScreen="0"
 		>
 		<WindowRect Left="-8" Top="-8" Right="1928" Bottom="1048" />
-		<NormalWindowRect Left="96" Top="148" Right="1550" Bottom="804" />
+		<NormalWindowRect Left="280" Top="58" Right="1254" Bottom="1105" />
 	</MainWindow>
 	<Options>
 		<WindowTabOptions IsVisible="1" ShowPathInfo="1" SortOrder="Usage" />
 	</Options>
 	<PanelArea>
-		<WorkArea Left="0" Top="126" Right="1920" Bottom="1014" />
-		<TabTray IsVisible="0" />
+		<WorkArea Left="0" Top="150" Right="1920" Bottom="989" />
+		<TabTray IsVisible="1" />
 		<DockZones>
 			<Left>
-				<Rect Left="0" Top="130" Right="4" Bottom="833" />
+				<Rect Left="0" Top="154" Right="4" Bottom="719" />
 				<Contents/>
 			</Left>
 			<Top>
-				<Rect Left="0" Top="126" Right="1920" Bottom="130" />
+				<Rect Left="0" Top="150" Right="1920" Bottom="154" />
 				<Contents/>
 			</Top>
 			<Right>
-				<Rect Left="1436" Top="130" Right="1920" Bottom="833" />
+				<Rect Left="1479" Top="154" Right="1920" Bottom="719" />
 				<Contents>
 					<PanelHost
-						Title="Project Symbols"
+						Title="Project Files"
 						id="ProjectPanelHost"
 						IsHidden="0"
 						PctTrans="0"
 						IsMinimized="0"
 						PanelCount="4"
-						idPalActive="ProjectSymbolPanel"
+						idPalActive="ProjectFilePanel"
 						>
-						<WindowRect Left="1440" Top="130" Right="1920" Bottom="833" />
-						<PredockRect Left="125" Top="125" Right="813" Bottom="750" />
+						<WindowRect Left="1483" Top="154" Right="1920" Bottom="719" />
+						<PredockRect Left="1771" Top="605" Right="2459" Bottom="1230" />
 						<Panels>
 							<Panel
 								id="ProjectFilePanel"
@@ -79,13 +79,37 @@
 							</Panel>
 						</Panels>
 					</PanelHost>
+					<PanelHost
+						Title="Window List"
+						id="PanelHost_270922890"
+						IsHidden="1"
+						PctTrans="0"
+						IsMinimized="0"
+						PanelCount="1"
+						idPalActive="WindowPanel"
+						>
+						<WindowRect Left="1483" Top="453" Right="1920" Bottom="748" />
+						<PredockRect Left="1470" Top="447" Right="1854" Bottom="662" />
+						<Panels>
+							<Panel
+								id="WindowPanel"
+								IsHidden="0"
+								ViewToolbar="1"
+								>
+								<Columns>
+									<Column0 ID="0" Width="144" />
+									<Column1 ID="1" Width="144" />
+								</Columns>
+							</Panel>
+						</Panels>
+					</PanelHost>
 				</Contents>
 			</Right>
 			<Bottom>
-				<Rect Left="0" Top="833" Right="1920" Bottom="1014" />
+				<Rect Left="0" Top="719" Right="1920" Bottom="989" />
 				<Contents>
 					<PanelHost
-						Title="x86inc.asm (D:\dev\opensource\ffmpeg-3.3.4-original\ffmpeg-3.3.4\libavutil\x86)"
+						Title="ffmpeg_path"
 						id="ContextPanelHost"
 						IsHidden="0"
 						PctTrans="0"
@@ -93,7 +117,7 @@
 						PanelCount="1"
 						idPalActive="ContextPanel"
 						>
-						<WindowRect Left="0" Top="837" Right="1920" Bottom="1014" />
+						<WindowRect Left="0" Top="723" Right="1920" Bottom="989" />
 						<PredockRect Left="741" Top="353" Right="1179" Bottom="728" />
 						<Panels>
 							<Panel id="ContextPanel" IsHidden="0" ViewToolbar="1" />
@@ -145,6 +169,32 @@
 							<Column6 ID="6" Width="72" />
 						</Columns>
 						<MruList/>
+					</Panel>
+				</Panels>
+			</PanelHost>
+			<PanelHost
+				Title="Snippets"
+				id="SnippetPanelHost"
+				IsHidden="1"
+				PctTrans="0"
+				IsMinimized="1"
+				PanelCount="1"
+				idPalActive="SnippetPanel"
+				>
+				<WindowRect Left="100" Top="210" Right="650" Bottom="400" />
+				<PredockRect Left="100" Top="210" Right="650" Bottom="400" />
+				<Panels>
+					<Panel
+						id="SnippetPanel"
+						IsHidden="0"
+						ViewToolbar="1"
+						>
+						<Columns>
+							<Column0 ID="0" Width="96" />
+							<Column1 ID="1" Width="192" />
+							<Column2 ID="2" Width="96" />
+							<Column3 ID="3" Width="96" />
+						</Columns>
 					</Panel>
 				</Panels>
 			</PanelHost>

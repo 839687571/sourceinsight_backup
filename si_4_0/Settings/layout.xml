@@ -6,29 +6,29 @@
 	<!-- This is a Source Insight desktop layout file. -->
 	<!-- www.sourceinsight.com -->
 	<MainWindow
-		IsMaximized="1"
+		IsMaximized="0"
 		IsFullScreen="0"
 		>
-		<WindowRect Left="-8" Top="-8" Right="1928" Bottom="1048" />
-		<NormalWindowRect Left="-7" Top="0" Right="1447" Bottom="492" />
+		<WindowRect Left="126" Top="443" Right="1637" Bottom="1490" />
+		<NormalWindowRect Left="126" Top="443" Right="1637" Bottom="1490" />
 	</MainWindow>
 	<Options>
 		<WindowTabOptions IsVisible="1" ShowPathInfo="1" SortOrder="Usage" />
 	</Options>
 	<PanelArea>
-		<WorkArea Left="0" Top="92" Right="1920" Bottom="1014" />
-		<TabTray IsVisible="0" />
+		<WorkArea Left="134" Top="601" Right="1629" Bottom="1431" />
+		<TabTray IsVisible="1" />
 		<DockZones>
 			<Left>
-				<Rect Left="0" Top="96" Right="4" Bottom="826" />
+				<Rect Left="134" Top="605" Right="138" Bottom="1164" />
 				<Contents/>
 			</Left>
 			<Top>
-				<Rect Left="0" Top="92" Right="1920" Bottom="96" />
+				<Rect Left="134" Top="601" Right="1629" Bottom="605" />
 				<Contents/>
 			</Top>
 			<Right>
-				<Rect Left="1460" Top="96" Right="1920" Bottom="826" />
+				<Rect Left="1286" Top="605" Right="1629" Bottom="1164" />
 				<Contents>
 					<PanelHost
 						Title="Project Symbols"
@@ -39,8 +39,8 @@
 						PanelCount="4"
 						idPalActive="ProjectSymbolPanel"
 						>
-						<WindowRect Left="1464" Top="96" Right="1920" Bottom="826" />
-						<PredockRect Left="125" Top="125" Right="813" Bottom="750" />
+						<WindowRect Left="1290" Top="605" Right="1629" Bottom="1164" />
+						<PredockRect Left="1771" Top="605" Right="2459" Bottom="1230" />
 						<Panels>
 							<Panel
 								id="ProjectFilePanel"
@@ -79,13 +79,37 @@
 							</Panel>
 						</Panels>
 					</PanelHost>
+					<PanelHost
+						Title="Window List"
+						id="PanelHost_270922890"
+						IsHidden="1"
+						PctTrans="0"
+						IsMinimized="0"
+						PanelCount="1"
+						idPalActive="WindowPanel"
+						>
+						<WindowRect Left="1290" Top="901" Right="1629" Bottom="1193" />
+						<PredockRect Left="1470" Top="447" Right="1854" Bottom="662" />
+						<Panels>
+							<Panel
+								id="WindowPanel"
+								IsHidden="0"
+								ViewToolbar="1"
+								>
+								<Columns>
+									<Column0 ID="0" Width="144" />
+									<Column1 ID="1" Width="144" />
+								</Columns>
+							</Panel>
+						</Panels>
+					</PanelHost>
 				</Contents>
 			</Right>
 			<Bottom>
-				<Rect Left="0" Top="826" Right="1920" Bottom="1014" />
+				<Rect Left="134" Top="1164" Right="1629" Bottom="1431" />
 				<Contents>
 					<PanelHost
-						Title="audiofilter_srcfilter_aevalsrc_gen_audio_all_params.bat (D:\test_cmd_ff\ffmpeg_bat)"
+						Title="test_node.bat (D:\mygitee\test_cmd_ff\work)"
 						id="ContextPanelHost"
 						IsHidden="0"
 						PctTrans="0"
@@ -93,7 +117,7 @@
 						PanelCount="1"
 						idPalActive="ContextPanel"
 						>
-						<WindowRect Left="0" Top="830" Right="1920" Bottom="1014" />
+						<WindowRect Left="134" Top="1168" Right="1629" Bottom="1431" />
 						<PredockRect Left="741" Top="353" Right="1179" Bottom="728" />
 						<Panels>
 							<Panel id="ContextPanel" IsHidden="0" ViewToolbar="1" />
@@ -145,6 +169,32 @@
 							<Column6 ID="6" Width="72" />
 						</Columns>
 						<MruList/>
+					</Panel>
+				</Panels>
+			</PanelHost>
+			<PanelHost
+				Title="Snippets"
+				id="SnippetPanelHost"
+				IsHidden="1"
+				PctTrans="0"
+				IsMinimized="1"
+				PanelCount="1"
+				idPalActive="SnippetPanel"
+				>
+				<WindowRect Left="100" Top="210" Right="650" Bottom="400" />
+				<PredockRect Left="100" Top="210" Right="650" Bottom="400" />
+				<Panels>
+					<Panel
+						id="SnippetPanel"
+						IsHidden="0"
+						ViewToolbar="1"
+						>
+						<Columns>
+							<Column0 ID="0" Width="96" />
+							<Column1 ID="1" Width="192" />
+							<Column2 ID="2" Width="96" />
+							<Column3 ID="3" Width="96" />
+						</Columns>
 					</Panel>
 				</Panels>
 			</PanelHost>
