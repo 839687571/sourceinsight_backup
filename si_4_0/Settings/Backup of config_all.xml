@@ -57,7 +57,7 @@
 			ShowNestingLines="1"
 			ShowCurLineMarker="0"
 			PanelToolbarBottom="1"
-			ShowSearchBar="0"
+			ShowSearchBar="1"
 			ShowSearchProjBar="0"
 			EnableTransparentPanels="0"
 			EnableOverviews="1"
@@ -7798,7 +7798,7 @@
 		<SymbolTypes All="1" />
 	</ProjectReport>
 	<SymbolPane
-		Width="299"
+		Width="230"
 		TextColor="#000000"
 		BackColor="#cce8cf"
 		ShowChanges="1"
@@ -8282,7 +8282,7 @@
 		</ListDisplay>
 	</ProjectSymbolWindow>
 	<ProjectSymbolTypeWindow
-		ShowMetrics="1"
+		ShowMetrics="0"
 		ShowFile="1"
 		Metric="Lines of Code"
 		>
@@ -8302,16 +8302,20 @@
 			<Type Name="Enum Constant" />
 			<Type Name="Function Prototype" />
 			<Type Name="#-Directive" />
+			<Type Name="Search Result" />
 			<Type Name="Label" />
 			<Type Name="Data Member" />
 			<Type Name="Interface" />
 			<Type Name="Resource" />
+			<Type Name="File" />
+			<Type Name="Directory" />
 			<Type Name="Function Template" />
 			<Type Name="Class Template" />
 			<Type Name="Package" />
 			<Type Name="Namespace" />
 			<Type Name="Token Macro" />
 			<Type Name="Code Block" />
+			<Type Name="Parameter" />
 			<Type Name="Parsing Error" />
 			<Type Name="HTML or XML Element" />
 			<Type Name="HTML Title" />
@@ -8319,6 +8323,8 @@
 			<Type Name="IDL Module" />
 			<Type Name="IDL Library" />
 			<Type Name="IDL Interface" />
+			<Type Name="C++ Template" />
+			<Type Name="Template Parameter" />
 			<Type Name="CSS Rule Selector" />
 			<Type Name="C# Class Property" />
 			<Type Name="C# Indexer" />
@@ -8328,9 +8334,15 @@
 			<Type Name="VHDL Component" />
 			<Type Name="VHDL Process" />
 			<Type Name="VHDL Configuration" />
+			<Type Name="Type Reference" />
 			<Type Name="External Variable" />
 			<Type Name="Alias" />
+			<Type Name="Alias Target" />
+			<Type Name="Type Parameter" />
 			<Type Name="Macro Event" />
+			<Type Name="Captured Variable" />
+			<Type Name="Clip" />
+			<Type Name="Snippet" />
 			<Type Name="Editor Macro Function" />
 		</SymbolTypes>
 		<Sort SortType="6" Invert="0" />
