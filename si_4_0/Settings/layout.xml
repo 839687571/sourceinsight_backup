@@ -6,29 +6,29 @@
 	<!-- This is a Source Insight desktop layout file. -->
 	<!-- www.sourceinsight.com -->
 	<MainWindow
-		IsMaximized="0"
+		IsMaximized="1"
 		IsFullScreen="0"
 		>
-		<WindowRect Left="-456" Top="457" Right="1410" Bottom="1211" />
-		<NormalWindowRect Left="-456" Top="457" Right="1410" Bottom="1211" />
+		<WindowRect Left="-8" Top="-8" Right="1928" Bottom="1048" />
+		<NormalWindowRect Left="380" Top="89" Right="2018" Bottom="1033" />
 	</MainWindow>
 	<Options>
 		<WindowTabOptions IsVisible="1" ShowPathInfo="1" SortOrder="Usage" />
 	</Options>
 	<PanelArea>
-		<WorkArea Left="-448" Top="591" Right="1402" Bottom="1152" />
+		<WorkArea Left="0" Top="150" Right="1920" Bottom="989" />
 		<TabTray IsVisible="1" />
 		<DockZones>
 			<Left>
-				<Rect Left="-448" Top="595" Right="-444" Bottom="971" />
+				<Rect Left="0" Top="154" Right="4" Bottom="719" />
 				<Contents/>
 			</Left>
 			<Top>
-				<Rect Left="-448" Top="591" Right="1402" Bottom="595" />
+				<Rect Left="0" Top="150" Right="1920" Bottom="154" />
 				<Contents/>
 			</Top>
 			<Right>
-				<Rect Left="974" Top="595" Right="1402" Bottom="971" />
+				<Rect Left="1572" Top="154" Right="1920" Bottom="719" />
 				<Contents>
 					<PanelHost
 						Title="Project Symbols"
@@ -39,7 +39,7 @@
 						PanelCount="4"
 						idPalActive="ProjectSymbolPanel"
 						>
-						<WindowRect Left="978" Top="595" Right="1402" Bottom="971" />
+						<WindowRect Left="1576" Top="154" Right="1920" Bottom="719" />
 						<PredockRect Left="1771" Top="605" Right="2459" Bottom="1230" />
 						<Panels>
 							<Panel
@@ -88,7 +88,7 @@
 						PanelCount="1"
 						idPalActive="WindowPanel"
 						>
-						<WindowRect Left="978" Top="783" Right="1402" Bottom="971" />
+						<WindowRect Left="1576" Top="454" Right="1920" Bottom="748" />
 						<PredockRect Left="1470" Top="447" Right="1854" Bottom="662" />
 						<Panels>
 							<Panel
@@ -106,10 +106,10 @@
 				</Contents>
 			</Right>
 			<Bottom>
-				<Rect Left="-448" Top="971" Right="1402" Bottom="1152" />
+				<Rect Left="0" Top="719" Right="1920" Bottom="989" />
 				<Contents>
 					<PanelHost
-						Title="scale"
+						Title="CMediaSourceManager"
 						id="ContextPanelHost"
 						IsHidden="0"
 						PctTrans="0"
@@ -117,7 +117,7 @@
 						PanelCount="1"
 						idPalActive="ContextPanel"
 						>
-						<WindowRect Left="-448" Top="975" Right="1402" Bottom="1152" />
+						<WindowRect Left="0" Top="757" Right="1920" Bottom="989" />
 						<PredockRect Left="741" Top="353" Right="1179" Bottom="728" />
 						<Panels>
 							<Panel id="ContextPanel" IsHidden="0" ViewToolbar="1" />

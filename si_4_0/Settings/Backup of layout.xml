@@ -6,29 +6,29 @@
 	<!-- This is a Source Insight desktop layout file. -->
 	<!-- www.sourceinsight.com -->
 	<MainWindow
-		IsMaximized="0"
+		IsMaximized="1"
 		IsFullScreen="0"
 		>
-		<WindowRect Left="223" Top="226" Right="1876" Bottom="921" />
-		<NormalWindowRect Left="223" Top="226" Right="1876" Bottom="921" />
+		<WindowRect Left="-8" Top="-8" Right="1928" Bottom="1048" />
+		<NormalWindowRect Left="331" Top="177" Right="1969" Bottom="1121" />
 	</MainWindow>
 	<Options>
 		<WindowTabOptions IsVisible="1" ShowPathInfo="1" SortOrder="Usage" />
 	</Options>
 	<PanelArea>
-		<WorkArea Left="231" Top="360" Right="1868" Bottom="862" />
+		<WorkArea Left="0" Top="150" Right="1920" Bottom="989" />
 		<TabTray IsVisible="1" />
 		<DockZones>
 			<Left>
-				<Rect Left="231" Top="364" Right="235" Bottom="700" />
+				<Rect Left="0" Top="154" Right="4" Bottom="719" />
 				<Contents/>
 			</Left>
 			<Top>
-				<Rect Left="231" Top="360" Right="1868" Bottom="364" />
+				<Rect Left="0" Top="150" Right="1920" Bottom="154" />
 				<Contents/>
 			</Top>
 			<Right>
-				<Rect Left="1462" Top="364" Right="1868" Bottom="700" />
+				<Rect Left="1451" Top="154" Right="1920" Bottom="719" />
 				<Contents>
 					<PanelHost
 						Title="Project Symbols"
@@ -39,7 +39,7 @@
 						PanelCount="4"
 						idPalActive="ProjectSymbolPanel"
 						>
-						<WindowRect Left="1466" Top="364" Right="1868" Bottom="700" />
+						<WindowRect Left="1455" Top="154" Right="1920" Bottom="719" />
 						<PredockRect Left="1771" Top="605" Right="2459" Bottom="1230" />
 						<Panels>
 							<Panel
@@ -88,7 +88,7 @@
 						PanelCount="1"
 						idPalActive="WindowPanel"
 						>
-						<WindowRect Left="1466" Top="533" Right="1868" Bottom="700" />
+						<WindowRect Left="1455" Top="454" Right="1920" Bottom="748" />
 						<PredockRect Left="1470" Top="447" Right="1854" Bottom="662" />
 						<Panels>
 							<Panel
@@ -106,10 +106,10 @@
 				</Contents>
 			</Right>
 			<Bottom>
-				<Rect Left="231" Top="700" Right="1868" Bottom="862" />
+				<Rect Left="0" Top="719" Right="1920" Bottom="989" />
 				<Contents>
 					<PanelHost
-						Title="av_opt_set"
+						Title="avfilter_graph_send_command"
 						id="ContextPanelHost"
 						IsHidden="0"
 						PctTrans="0"
@@ -117,7 +117,7 @@
 						PanelCount="1"
 						idPalActive="ContextPanel"
 						>
-						<WindowRect Left="231" Top="704" Right="1868" Bottom="862" />
+						<WindowRect Left="0" Top="757" Right="1920" Bottom="989" />
 						<PredockRect Left="741" Top="353" Right="1179" Bottom="728" />
 						<Panels>
 							<Panel id="ContextPanel" IsHidden="0" ViewToolbar="1" />
